@@ -11,7 +11,6 @@
   inputs.src-hashids-master.ref   = "refs/heads/master";
   inputs.src-hashids-master.owner = "achesak";
   inputs.src-hashids-master.repo  = "nim-hashids";
-  inputs.src-hashids-master.dir   = "";
   inputs.src-hashids-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
